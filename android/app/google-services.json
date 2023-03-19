@@ -29,6 +29,13 @@
             {
               "client_id": "728911800770-7v0ev8ebktlokkfnq7908ejhqkm16al3.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "728911800770-e08scvj41vqol67i1k4u16oklhs7njb4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.GlobalTRGame.Biyoloji"
+              }
             }
           ]
         }

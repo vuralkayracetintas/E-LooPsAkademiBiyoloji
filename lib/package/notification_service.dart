@@ -46,6 +46,12 @@ class FirebaseNotificationService {
         LocalNotificationServices.createNotification(message);
       }
     });
+    FirebaseMessaging.onMessageOpenedApp.listen((message) {
+      if (message.notification != null) {
+        print('Gelen bildirim basligi ${message.notification!.title}');
+        print('message title ${message.notification!.body}');
+      }
+    });
     messaging
         .getToken()
         .then((value) => log('Token : $value', name: 'FCM token'));

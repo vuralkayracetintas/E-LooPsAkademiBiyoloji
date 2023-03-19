@@ -1,3 +1,5 @@
+//"@drawable/ic_stat_a"
+
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
@@ -28,7 +30,7 @@ class LocalNotificationServices {
               importance: Importance.max,
               priority: Priority.high,
               color: Colors.yellow,
-              icon: '@drawable/ic_stat_a',
+              icon: "@drawable/ic_stat_a",
               playSound: true),
           iOS: DarwinNotificationDetails(
             presentAlert: true,

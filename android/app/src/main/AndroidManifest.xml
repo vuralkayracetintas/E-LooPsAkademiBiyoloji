@@ -3,7 +3,7 @@
    <application
         android:label="Biyoloji TYT AYT"
         android:name="${applicationName}"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@drawable/ic_stat_a">
         <activity
             android:name=".MainActivity"
             android:exported="true"

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "728911800770",
+    "project_id": "e-loopsakademi-biyoloji",
+    "storage_bucket": "e-loopsakademi-biyoloji.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:728911800770:android:8e83283f6deace9e210e5b",
+        "android_client_info": {
+          "package_name": "com.Global.TRGame.BiyolojiTytAyt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "728911800770-7v0ev8ebktlokkfnq7908ejhqkm16al3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsTWwBHG1Ul7ChUIGmoeR6FUKzDe_-2H0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "728911800770-7v0ev8ebktlokkfnq7908ejhqkm16al3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

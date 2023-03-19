@@ -113,6 +113,7 @@ class _AYTKonuAnlatimMainPageState extends State<AYTKonuAnlatimMainPage> {
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
+                      SizedBox(height: 10),
                       const Image(
                         image: AssetImage("assets/images/eloopslogo.png"),
                         height: 80,
@@ -121,12 +122,14 @@ class _AYTKonuAnlatimMainPageState extends State<AYTKonuAnlatimMainPage> {
                       const SizedBox(height: 30),
                       const Text(
                         "Dilediğin Eğitim Kurumundan\n",
-                        style: TextStyle(fontWeight: FontWeight.bold),
+                        style: TextStyle(
+                            fontWeight: FontWeight.bold, fontSize: 15),
                       ),
                       SizedBox(
                         width: size.width * .6,
                         child: const Text(
                           "Dilediğin Eğitime Kolayca Ulaşmana  ve Yıllık Eğitim Maliyetini %70  Oranında Düşürmene Olanak Sağlıyor",
+                          style: TextStyle(fontSize: 15),
                         ),
                       ),
                       const SizedBox(height: 20),

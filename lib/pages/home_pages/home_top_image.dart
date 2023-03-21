@@ -8,14 +8,14 @@ class HomeTabImage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    var screenInfo = MediaQuery.of(context);
-    final double screenHeight = screenInfo.size.height;
-    final double screenWidth = screenInfo.size.width;
+    //var screenInfo = MediaQuery.of(context);
+    //final double screenHeight = screenInfo.size.height;
+    //final double screenWidth = screenInfo.size.width;
     return Stack(
       children: [
-        Align(
+        const Align(
           alignment: Alignment.centerRight,
-          child: const Image(
+          child: Image(
               //height: screenHeight * 0.3,
               //width: screenWidth,
               image: AssetImage('assets/images/ogrenci1.png')),
@@ -51,47 +51,8 @@ class HomeTabImage extends StatelessWidget {
                   ),
                 ],
               ),
-              Divider()
-              // Text(
-              //   'Yıllık Eğitim Maliyetin',
-              //   style: Theme.of(context).textTheme.headlineMedium!.copyWith(
-              //       fontWeight: FontWeight.w800,
-              //       color: kDeepPurple,
-              //       fontSize: 20),
-              // ),
-              // Row(
-              //   children: const [
-              //     Text(
-              //       '2.000 ₺ ',
-              //       style: TextStyle(
-              //         fontSize: 35,
-              //         fontWeight: FontWeight.w900,
-              //         color: Colors.red,
-              //       ),
-              //     ),
-              //     Text(
-              //       'Olsun',
-              //       style: TextStyle(
-              //           fontSize: 20,
-              //           fontWeight: FontWeight.w900,
-              //           color: kDeepPurple),
-              //     )
-              //   ],
-              // ),
-              // const SizedBox(height: 10),
-              // Row(
-              //   //mainAxisAlignment: MainAxisAlignment.center,
-              //   children: const [
-              //     Expanded(
-              //       child: Divider(),
-              //     ),
-              //     Text('VE'),
-              //     Expanded(child: Divider())
-              //   ],
-              // ),
-              // const SizedBox(height: 30),
-              ,
-              SizedBox(height: 55),
+              const Divider(),
+              const SizedBox(height: 55),
               Text(
                 'Dilediğin Eğitim Kurumundan \nDilediğin Eğitime Ulaş',
                 style: Theme.of(context).textTheme.headlineMedium!.copyWith(
@@ -100,15 +61,13 @@ class HomeTabImage extends StatelessWidget {
                     fontSize: 20),
               ),
               Column(
-                children: <Widget>[
+                children: const <Widget>[
                   Align(
                     alignment: Alignment.centerRight,
-                    child: Container(
-                      child: Text(
-                        "#premiumhisset",
-                        style: TextStyle(
-                          color: Colors.grey,
-                        ),
+                    child: Text(
+                      "#premiumhisset",
+                      style: TextStyle(
+                        color: Colors.grey,
                       ),
                     ),
                   ),

@@ -10,7 +10,7 @@ class AYTTestButton extends StatelessWidget {
     return GestureDetector(
       //Buton :) web
       onTap: () {
-        myAdFunction.showInterstitialAd();
+        // myAdFunction.showInterstitialAd();
         // _showInterstitialAd();
         Navigator.push(context,
             MaterialPageRoute(builder: (context) => const AYTTestMainPage()));

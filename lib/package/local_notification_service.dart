@@ -31,6 +31,7 @@ class LocalNotificationServices {
               priority: Priority.high,
               color: Colors.yellow,
               icon: "@drawable/ic_stat_a",
+              largeIcon: DrawableResourceAndroidBitmap('logo'),
               playSound: true),
           iOS: DarwinNotificationDetails(
             presentAlert: true,

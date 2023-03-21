@@ -1,40 +1,76 @@
 {
   "project_info": {
-    "project_number": "728911800770",
-    "project_id": "e-loopsakademi-biyoloji",
-    "storage_bucket": "e-loopsakademi-biyoloji.appspot.com"
+    "project_number": "257791040429",
+    "project_id": "e-loopsakademi-ingilizce-137ad",
+    "storage_bucket": "e-loopsakademi-ingilizce-137ad.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:728911800770:android:8e83283f6deace9e210e5b",
+        "mobilesdk_app_id": "1:257791040429:android:bfc6f1c91d2780f4091f24",
         "android_client_info": {
           "package_name": "com.Global.TRGame.BiyolojiTytAyt"
         }
       },
       "oauth_client": [
         {
-          "client_id": "728911800770-7v0ev8ebktlokkfnq7908ejhqkm16al3.apps.googleusercontent.com",
+          "client_id": "257791040429-jqkfcht5ij9n94oap9njfruvbd2clvn0.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDsTWwBHG1Ul7ChUIGmoeR6FUKzDe_-2H0"
+          "current_key": "AIzaSyDUcKk7jPGstVyXRqZmAKLC8ngZ12o_ZUo"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "728911800770-7v0ev8ebktlokkfnq7908ejhqkm16al3.apps.googleusercontent.com",
+              "client_id": "257791040429-jqkfcht5ij9n94oap9njfruvbd2clvn0.apps.googleusercontent.com",
               "client_type": 3
             },
             {
-              "client_id": "728911800770-e08scvj41vqol67i1k4u16oklhs7njb4.apps.googleusercontent.com",
+              "client_id": "257791040429-532ai5f4k29unbisphpd4hlt5nhggm9c.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.GlobalTRGame.Biyoloji"
+                "bundle_id": "com.Global.TRGame.EnglishYdtELooPsAkademi"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:257791040429:android:0b214921ac566a35091f24",
+        "android_client_info": {
+          "package_name": "com.Global.TRGame.EnglishYdtELooPsAkademi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "257791040429-jqkfcht5ij9n94oap9njfruvbd2clvn0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUcKk7jPGstVyXRqZmAKLC8ngZ12o_ZUo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "257791040429-jqkfcht5ij9n94oap9njfruvbd2clvn0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "257791040429-532ai5f4k29unbisphpd4hlt5nhggm9c.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.Global.TRGame.EnglishYdtELooPsAkademi"
               }
             }
           ]

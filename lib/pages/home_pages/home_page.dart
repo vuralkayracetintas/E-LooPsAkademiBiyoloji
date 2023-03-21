@@ -125,27 +125,32 @@ class _HomePageState extends State<HomePage> {
           ),
         ),
         drawer: const HomeDrawerPage(),
-        body: Column(
-          mainAxisAlignment: MainAxisAlignment.start,
-          children: [
-            const HomeTabImage(),
-            Expanded(
-              child: GridView.count(
-                crossAxisCount: 2,
-                childAspectRatio: .85,
-                crossAxisSpacing: .5,
-                mainAxisSpacing: 20,
-                children: const [
-                  DigitalPlatformButton(),
-                  DenemeButton(),
-                  TYTKonuAnlatimButton(),
-                  AYTKonuAnlatimButton(),
-                  TYTTestButton(),
-                  AYTTestButton(),
-                ],
-              ),
+        body: SafeArea(
+          child: Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.start,
+              children: [
+                const HomeTabImage(),
+                Expanded(
+                  child: GridView.count(
+                    crossAxisCount: 2,
+                    childAspectRatio: .85,
+                    crossAxisSpacing: .5,
+                    mainAxisSpacing: 20,
+                    children: const [
+                      DigitalPlatformButton(),
+                      DenemeButton(),
+                      TYTKonuAnlatimButton(),
+                      AYTKonuAnlatimButton(),
+                      TYTTestButton(),
+                      AYTTestButton(),
+                    ],
+                  ),
+                ),
+              ],
             ),
-          ],
+          ),
         ));
   }
 }

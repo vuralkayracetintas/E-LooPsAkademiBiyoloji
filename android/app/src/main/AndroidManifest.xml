@@ -3,7 +3,10 @@
    <application
         android:label="Biyoloji TYT AYT"
         android:name="${applicationName}"
-        android:icon="@drawable/ic_stat_a">
+        android:icon="@mipmap/ic_launcher">
+        <meta-data 
+          android:name="com.google.firebase.messaging.default_notification_icon" 
+          android:resource="@drawable/ic_stat_a" />
         <activity
             android:name=".MainActivity"
             android:exported="true"

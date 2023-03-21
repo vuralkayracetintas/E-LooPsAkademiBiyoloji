@@ -20,7 +20,7 @@ class _TYTKonuAnlatimButtonState extends State<TYTKonuAnlatimButton> {
     return GestureDetector(
       //Buton :) web
       onTap: () {
-        myAdFunction.showInterstitialAd();
+        //myAdFunction.showInterstitialAd();
 
         //_showInterstitialAd();
         Navigator.push(

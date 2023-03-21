@@ -54,10 +54,12 @@ android {
         applicationId "com.Global.TRGame.BiyolojiTytAyt"
         // You can update the following values to match your application needs.
         // For more information, see: https://docs.flutter.dev/deployment/android#reviewing-the-gradle-build-configuration.
-        minSdkVersion 21
+        minSdkVersion 19
         targetSdkVersion flutter.targetSdkVersion
-        versionCode 15
-        versionName "8.4.3"
+        versionCode 17
+        versionName "8.4.5"
+        multiDexEnabled true
+        
         
     }
    

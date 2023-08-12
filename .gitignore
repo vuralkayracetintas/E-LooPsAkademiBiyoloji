@@ -25,6 +25,7 @@ android/
 ios/
 assets/
 pubspec.lock
+adcode.txt
 
 # Flutter/Dart/Pub related
 **/doc/api/

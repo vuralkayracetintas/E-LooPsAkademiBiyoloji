@@ -7,7 +7,7 @@
 
 Uygulamayı indirmek için aşağıdaki linklere tıklayabilirsiniz:
 
-- [Google Play](https://play.google.com/store/apps/detailsid=com.Global.TRGame.BiyolojiTytAyt)
+- [Google Play](https://play.google.com/store/apps/details?id=com.Global.TRGame.BiyolojiTytAyt)
 - [AppStore](https://apps.apple.com/tr/app/biyoloji-tyt-ayt/id1585574355)
 - [E-LooPsAkademi WEB](https://www.eloopsakademi.com/)
 

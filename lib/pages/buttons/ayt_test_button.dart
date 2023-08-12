@@ -1,4 +1,3 @@
-import 'package:biyoloji_16_03_2023/package/ad_function.dart';
 import 'package:biyoloji_16_03_2023/pages/AYT_PAGES/ayt_test_pages/AYT_test_main_page.dart';
 import 'package:flutter/material.dart';
 

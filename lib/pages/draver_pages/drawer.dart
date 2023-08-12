@@ -1,3 +1,4 @@
+import 'package:biyoloji_16_03_2023/product/project_colors.dart';
 import 'package:flutter/material.dart';
 
 import '../../package/url_use.dart';
@@ -58,6 +59,17 @@ class _HomeDrawerPageState extends State<HomeDrawerPage> {
           ),
           ListTile(
             title: const Text('Instagram'),
+            onTap: () {
+              launched = launchInBrowser(instagram);
+            },
+          ),
+          ListTile(
+            title: const Text(
+              'Biyoloji TYT AYT',
+              style: TextStyle(
+                color: kDeepPurple,
+              ),
+            ),
             onTap: () {
               launched = launchInBrowser(instagram);
             },

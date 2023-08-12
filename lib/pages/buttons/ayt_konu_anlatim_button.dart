@@ -1,4 +1,3 @@
-import 'package:biyoloji_16_03_2023/package/ad_function.dart';
 import 'package:biyoloji_16_03_2023/pages/AYT_PAGES/ayt_konu_pages/ayt_konu_anlatim_main_page.dart';
 import 'package:flutter/material.dart';
 

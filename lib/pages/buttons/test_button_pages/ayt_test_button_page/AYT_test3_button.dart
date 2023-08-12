@@ -1,6 +1,5 @@
 import 'package:biyoloji_16_03_2023/package/ad_function.dart';
 import 'package:biyoloji_16_03_2023/pages/AYT_PAGES/ayt_test_pages/AYT_test3.dart';
-import 'package:biyoloji_16_03_2023/pages/TYT_PAGES/test_pages/TYT_test1.dart';
 import 'package:biyoloji_16_03_2023/product/project_colors.dart';
 import 'package:flutter/material.dart';
 

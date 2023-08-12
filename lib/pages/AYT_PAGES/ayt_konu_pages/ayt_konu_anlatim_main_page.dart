@@ -37,7 +37,7 @@ class _AYTKonuAnlatimMainPageState extends State<AYTKonuAnlatimMainPage> {
   int interstitialLoadAttempts = 1;
   bool isBottomBannerAdLoaded = false;
   BannerAd? bottomBannerAd;
-  InterstitialAd? interstitialAd; //TODO this
+  InterstitialAd? interstitialAd;
 
   createBottomBannerAd() {
     bottomBannerAd = BannerAd(
@@ -96,8 +96,8 @@ class _AYTKonuAnlatimMainPageState extends State<AYTKonuAnlatimMainPage> {
         )),
         body: Stack(
           children: [
-            Column(
-              children: const [
+            const Column(
+              children: [
                 Align(
                     alignment: Alignment.centerRight,
                     child:
@@ -113,7 +113,7 @@ class _AYTKonuAnlatimMainPageState extends State<AYTKonuAnlatimMainPage> {
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      SizedBox(height: 10),
+                      const SizedBox(height: 10),
                       const Image(
                         image: AssetImage("assets/images/eloopslogo.png"),
                         height: 80,

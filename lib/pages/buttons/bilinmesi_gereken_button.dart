@@ -7,8 +7,6 @@ class BilinmesiGerekenButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final ekranBiligisi = MediaQuery.of(context);
-    var genislik = ekranBiligisi.size.height;
     return GestureDetector(
       onTap: () {},
       child: Container(

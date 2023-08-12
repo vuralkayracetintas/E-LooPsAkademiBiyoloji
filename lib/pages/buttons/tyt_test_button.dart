@@ -1,4 +1,3 @@
-import 'package:biyoloji_16_03_2023/package/ad_function.dart';
 import 'package:biyoloji_16_03_2023/pages/TYT_PAGES/test_pages/TYT_test_main_page.dart';
 import 'package:flutter/material.dart';
 
@@ -32,8 +31,8 @@ class TYTTestButton extends StatelessWidget {
           color: Colors.white,
         ),
         margin: const EdgeInsets.all(8),
-        child: Column(
-          children: const [
+        child: const Column(
+          children: [
             Spacer(),
             Image(
               image: AssetImage("assets/gorsel/abcd.png"),

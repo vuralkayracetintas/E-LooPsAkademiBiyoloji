@@ -25,14 +25,27 @@ class FirebaseNotificationService {
     );
 
     settingNotification();
-
-    FirebaseMessaging.onMessage.listen((RemoteMessage message) {
-      print('gelen bildirim basligi : ${message.notification?.title}');
-      print('message title : ${message.notification?.body}');
-
-      if (message.notification != null) {
+    FirebaseMessaging.instance.setAutoInitEnabled(true);
+    FirebaseMessaging.onMessage.listen(
+      (RemoteMessage message) {
         print('Message also contained a notification: ${message.notification}');
-        LocalNotificationServices.createNotification(message);
+        print('gelen bildirim basligi : ${message.notification?.title}');
+        print('message title : ${message.notification?.body}');
+        if (message.notification != null) {
+          print(
+              'Message also contained a notification: ${message.notification}');
+          print('gelen bildirim basligi : ${message.notification?.title}');
+          print('message title : ${message.notification?.body}');
+          LocalNotificationServices.createNotification(message);
+        }
+      },
+    );
+
+    FirebaseMessaging.onMessageOpenedApp.listen((message) {
+      print('app running backgroung');
+      if (message.notification != null) {
+        print('gelen bildirim basligi : ${message.notification?.title}');
+        print('message title : ${message.notification?.body}');
       }
     });
 
@@ -43,8 +56,6 @@ class FirebaseNotificationService {
 
   static Future<void> backgroundMessage(RemoteMessage message) async {
     await Firebase.initializeApp();
-    print('handling a backgroung message ${message.messageId}');
+    print('arka plan mesahlarie ${message.messageId}');
   }
-
-  void showNotification() {}
 }

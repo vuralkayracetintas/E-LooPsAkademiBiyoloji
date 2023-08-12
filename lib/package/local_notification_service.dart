@@ -22,12 +22,13 @@ class LocalNotificationServices {
   }
 
   static void createNotification(RemoteMessage message) async {
+    print('local notification calisti');
     try {
       final id = DateTime.now().millisecondsSinceEpoch ~/ 1000;
       const NotificationDetails notificationDetails = NotificationDetails(
           android: AndroidNotificationDetails(
               "pushnotification", "pushnotificationchannel",
-              importance: Importance.max,
+              importance: Importance.high,
               priority: Priority.high,
               color: Colors.yellow,
               icon: "@drawable/ic_stat_a",
@@ -39,7 +40,7 @@ class LocalNotificationServices {
             presentSound: true,
           ));
       await notificationsPlugin.show(
-        id,
+        0,
         message.notification!.title,
         message.notification!.body,
         notificationDetails,

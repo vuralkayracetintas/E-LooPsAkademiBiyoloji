@@ -15,7 +15,7 @@ Future<void> main() async {
       FirebaseNotificationService.backgroundMessage);
   LocalNotificationServices.initialize();
   MobileAds.instance.initialize();
-
+  //FirebaseMessaging.instance.getInitialMessage();
   await Firebase.initializeApp();
   runApp(const MyApp());
 }
